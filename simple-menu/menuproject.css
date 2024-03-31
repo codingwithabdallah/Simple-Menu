@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    border: 3px solid black;
+    border-radius: 1rem;
+    margin: 0 auto 1rem;
+    font-size: 2rem;
+    max-width: 400px;
+    font-family: Roboto , sans-serif;
+    margin-top: 1rem;
+}
+li a {
+    display: block;
+}
+h2{
+    padding: 15px;
+    background-color: purple ;
+    border-radius: 14px 14px 0 0 ;
+}
+
+body{
+    text-align: center;
+
+}
+
+ul {
+    list-style-type: none;
+}
+li{
+    border-top: 1.5px solid black;
+    line-height: 6.5rem;
+}
+
+li a ,
+li a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+li a:focus ,
+li a:hover {
+    background-color: yellow;
+
+}
+li:last-child a {
+    border-radius: 0 0 14px 14px;
+}
